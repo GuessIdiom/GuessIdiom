@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+	<Button
+	    android:id="@+id/main_model1"
+	    android:layout_width="150dp"
+	    android:layout_height="80dp"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="52dp"
+	    android:background="@drawable/tyscy"
+	    android:textColor="#ff3366" />
+
+	<Button
+	    android:id="@+id/main_model2"
+	    android:layout_width="150dp"
+	    android:layout_height="80dp"
+	    android:layout_alignLeft="@+id/main_model1"
+	    android:layout_below="@+id/main_model1"
+	    android:background="@drawable/tyccy"
+	    android:textColor="#ff3366" />
+	<Button
+	    android:id="@+id/main_model3"
+	    android:layout_width="150dp"
+	    android:layout_height="80dp"
+	    android:layout_alignLeft="@+id/main_model2"
+	    android:layout_below="@+id/main_model2"
+	    android:background="@drawable/ktccy"
+	    android:textColor="#ff3366" />
+
+	<Button
+	    android:id="@+id/main_ranklist"
+	    android:layout_width="150dp"
+	    android:layout_height="80dp"
+	    android:layout_alignLeft="@+id/main_model3"
+	    android:layout_below="@+id/main_model3"
+	    android:background="@drawable/ranklist"
+	    android:textColor="#ff3366" />
+
+	<Button
+	    android:id="@+id/main_gamehelp"
+	    android:layout_width="150dp"
+	    android:layout_height="80dp"
+	    android:layout_alignLeft="@+id/main_ranklist"
+	    android:layout_below="@+id/main_ranklist"
+	    android:background="@drawable/gamehelp"
+	    android:textColor="#ff3366" />
+
+	
+
+</RelativeLayout>

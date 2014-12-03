@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/gamehelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户安装我说你猜软件后，点击软件可以打开软件，打开软件后可以看到听音识成语、听音猜成语、看图猜成语、排行榜、游戏帮助五个选项，如果是第一次玩该类型游戏的用户，可以通过查看游戏帮助快速掌握游戏规则"
+        android:textColor="#4169E1"
+        android:textSize="25dip" />
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:padding="6dp"
+        android:text="时间到！！"
+        android:textColor="#FFFF"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="clip_horizontal"
+            android:text="下次努力啊！，当前关-"
+            android:textColor="#FFFF"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_circle_subject_is"
+        android:padding="9dp" >
+
+        <TextView
+            android:id="@+id/gameover_guan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="8dp"
+            android:text="5"
+            android:textColor="#FFFF"
+            android:textSize="40dp" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/gameover_tuichu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#FF6633"
+        android:padding="10dp"
+        android:text="退出游戏"
+        android:textColor="#FFFFFFFF" />
+
+    <Button
+        android:id="@+id/gameover_zailai"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="9dp"
+        android:background="#0099FF"
+        android:text="再来一次"
+        android:textColor="#FFFFFFFF" />
+
+</LinearLayout>

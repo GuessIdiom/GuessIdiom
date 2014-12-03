@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_topbar"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/lookpicture_return"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_cancel"
+            android:text="返回"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/lookpicture_countview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/bg_subject_no_music"
+            android:gravity="center"
+            android:text="01-01" />
+
+        <TextView
+            android:id="@+id/lookpicture_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:background="@drawable/bg_subject_no_time"
+            android:text="500"
+            android:textColor="#FFFFFF" 
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lookpicture_jinbitextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="0.08"
+            android:background="#54ffcc"
+            android:drawableLeft="@drawable/icon_coin"
+            android:gravity="center"
+            android:text="12"
+            android:textColor="#ff0000" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp" >
+
+        <ImageButton
+            android:id="@+id/lookpicture_sharebutton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="43dp"
+            android:background="@drawable/btn_share" />
+
+        <ImageButton
+            android:id="@+id/lookpicture_playbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/play_btn_bg"
+            android:src="@drawable/look" />
+
+        <ImageButton
+            android:id="@+id/lookpicture_helpbutton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/game_fenxiangbutton"
+            android:background="@drawable/btn_tishi" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/lookpicture_answerone"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/answer_input_bkg_movie"
+            android:textColor="#FFFF00"
+            android:textSize="32dp" 
+          />
+
+        <Button
+            android:id="@+id/lookpicture_answertwo"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/answer_input_bkg_movie"
+            android:textColor="#FFFF00"
+            android:textSize="32dp"
+             />
+
+        <Button
+            android:id="@+id/lookpicture_answerthree"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/answer_input_bkg_movie" 
+            android:textColor="#FFFF00"
+            android:textSize="32dp"
+           />
+        <Button
+            android:id="@+id/lookpicture_answerfour"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/answer_input_bkg_movie" 
+            android:textColor="#FFFF00"
+            android:textSize="32dp"
+           />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:src="@drawable/ba1" />
+
+    <GridView
+        android:id="@+id/lookpicture_gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.4"
+        android:numColumns="4" >
+
+    </GridView>
+
+</LinearLayout>

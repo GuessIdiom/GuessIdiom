@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/aswer_onr_bt"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dp"
+        android:text="第一季" />
+<!--         android:layout_marginTop="25dp" -->
+    <GridView
+        android:id="@+id/desgin_gridView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dip"
+        android:numColumns="3"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:horizontalSpacing="0.1dip"
+        android:verticalSpacing="0.1dip"/>
+
+</LinearLayout>
